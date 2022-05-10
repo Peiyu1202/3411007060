@@ -41,7 +41,18 @@
         ul~p{
             color: yellow;
         }
-
+        /* 偽類選擇器(使用:符號) */
+        a:hover{
+            color: red;
+        }
+        /* 偽元素選擇器(使用::符號)「在標籤的結尾插入文字」 */
+        div::after{
+            content:"結束"
+        }
+        /* 群組選擇器 */
+        ul li,ol li{
+            color: red;
+        }
     </style>
 </head>
 <body>
